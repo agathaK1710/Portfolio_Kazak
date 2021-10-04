@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.android.portfolio_kazak.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_about_me"
+        android:name="com.android.portfolio_kazak.ui.aboutMe.AboutMeFragment"
+        android:label="@string/about_me"
+        tools:layout="@layout/fragment_about_me" />
+
+    <fragment
+        android:id="@+id/nav_education"
+        android:name="com.android.portfolio_kazak.ui.education.EducationFragment"
+        android:label="@string/education"
+        tools:layout="@layout/fragment_education" />
+
+    <fragment
+        android:id="@+id/nav_hobby"
+        android:name="com.android.portfolio_kazak.ui.hobby.HobbyFragment"
+        android:label="@string/hobby"
+        tools:layout="@layout/fragment_hobby" />
+
+    <fragment
+        android:id="@+id/nav_plans"
+        android:name="com.android.portfolio_kazak.ui.plans.PlansFragment"
+        android:label="@string/plans"
+        tools:layout="@layout/fragment_plans" />
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.android.portfolio_kazak.ui.contacts.ContactsFragment"
+        android:label="@string/contacts"
+        tools:layout="@layout/fragment_contacts" />
+
+</navigation>
